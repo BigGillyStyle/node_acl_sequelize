@@ -1,6 +1,6 @@
 {
-  "name": "acl-sequelize",
-  "version": "0.2.1",
+  "name": "@biggillystyle/acl-sequelize",
+  "version": "0.3.0",
   "description": "Node Acl Sequelize Backend",
   "main": "index.js",
   "directories": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yonjah/node_acl_sequelize"
+    "url": "https://github.com/BigGillyStyle/node_acl_sequelize"
   },
   "keywords": [
     "middleware",
@@ -22,10 +22,10 @@
     "postgres",
     "mysql"
   ],
-  "author": "Yoni Jah <yoni.jah@non.co.il>",
+  "author": "Andy Pickler <andy.pickler@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yonjah/node_acl_sequelize/issues"
+    "url": "https://github.com/BigGillyStyle/node_acl_sequelize/issues"
   },
   "devDependencies": {
     "acl": "^0.4.7",
@@ -35,14 +35,14 @@
     "mysql": "^2.6.1",
     "mysql2": "^1.4.2",
     "nyc": "^11.2.1",
-    "sequelize": ">=5.0.0"
+    "sequelize": "^5.0.0"
   },
-  "homepage": "https://github.com/yonjah/node_acl_sequelize",
+  "homepage": "https://github.com/BigGillyStyle/node_acl_sequelize",
   "dependencies": {
     "lodash": "^4.17.5"
   },
   "peerDependencies": {
-    "sequelize": ">=5.0.0",
+    "sequelize": "^5.0.0",
     "acl": "^0.4.7"
   }
 }
