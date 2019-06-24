@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.com/BigGillyStyle/node_acl_sequelize.svg?branch=master)](https://travis-ci.com/BigGillyStyle/node_acl_sequelize)
-[![Known Vulnerabilities](https://snyk.io/test/github/{username}/{repo}/badge.svg)](https://snyk.io/test/github/{username}/{repo})
+# NOTE: This package was only published for 24 hours and was removed, as Sequelize v5 support was added in https://github.com/yonjah/node_acl_sequelize/pull/14  I apologize for any trouble and confusion I caused by publishing this without consulting the original author first.
 
 # Node Acl Sequelize Backend
 _acl-sequelize_
