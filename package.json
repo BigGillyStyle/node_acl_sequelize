@@ -9,7 +9,9 @@
   "scripts": {
     "test": "mocha test/runner.js",
     "cover": "nyc --reporter=lcov --reporter=text mocha 'test/runner.js'",
-    "lint": "eslint lib/ test/"
+    "lint": "eslint lib/ test/",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,10 +41,12 @@
   },
   "homepage": "https://github.com/BigGillyStyle/node_acl_sequelize",
   "dependencies": {
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.5",
+    "snyk": "^1.189.0"
   },
   "peerDependencies": {
     "sequelize": "^5.0.0",
     "acl": "^0.4.7"
-  }
+  },
+  "snyk": true
 }
